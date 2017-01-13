@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/redhat-dotnet-msa/howdy.png?label=ready&title=Ready)](https://waffle.io/redhat-dotnet-msa/howdy)
 # howdy
 RESTful service that returns "howdy".
 
