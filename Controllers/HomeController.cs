@@ -16,7 +16,7 @@ namespace howdy
             if (File.Exists("slowdown")) {
                 Thread.Sleep(9000);
             }
-            return "Howdy";
+            return "Howdy!";
         }
 
         [Route("/slowdown")]
