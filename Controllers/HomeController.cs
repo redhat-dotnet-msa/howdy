@@ -23,7 +23,7 @@ namespace howdy
         public String Slowdown()
         {
             if (!(File.Exists("slowdown"))) {
-		File.Create("slowdown");
+        		File.Create("slowdown").Close();
             }
             return "Slowdown initiated...";
         }

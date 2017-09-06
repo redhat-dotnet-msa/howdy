@@ -1,2 +1,1 @@
-dotnet publish -c Release -r rhel.7.2-x64
-
+dotnet publish -c Release -r rhel.7-x64 --self-contained=false
